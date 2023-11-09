@@ -5,7 +5,9 @@ this is just to tell some points -
 1. I used my own file for tracking keyboard inputs but if you like you can use the Keyboard module available. To download that module in Windows type this in command prompt -
 
    C:> pip install keyboard
+   
    then use,
+   
    if keyboard.is_pressed("c"):
       exit()
 
